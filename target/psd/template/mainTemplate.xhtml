@@ -1,0 +1,24 @@
+<f:subview id="body" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core">
+    <ui:composition template="baseTemplate.xhtml">
+        <ui:define name="header">
+            <div id="header-content">
+                <ui:include src="layout/header.xhtml"/>
+            </div>
+            <div id="navigation-content">
+                <ui:include src="layout/navigation.xhtml"/>
+            </div>
+        </ui:define>
+
+        <ui:define name="body-container">
+            <div id="body-content">
+                <ui:insert name="body"/>
+            </div>
+        </ui:define>
+
+        <ui:define name="footer">
+            <div id="footer-content">
+                <ui:include src="layout/footer.xhtml"/>
+            </div>
+        </ui:define>
+    </ui:composition>
+</f:subview>

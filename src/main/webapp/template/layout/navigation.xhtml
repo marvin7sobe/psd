@@ -1,0 +1,23 @@
+<f:subview id="navigation-content-subview"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html"
+        xmlns:c="http://java.sun.com/jstl/core"
+        xmlns:ui="http://java.sun.com/jsf/facelets">
+    <div>
+        <h:form style="margin: 0; padding: 0;">
+            <ui:param name="home_link" value="#{request.contextPath}/pages/home/home.seam"/>
+            <ui:param name="about_link" value="#{request.contextPath}/pages/about/about.seam"/>
+            <ui:param name="technologies_link" value="#{request.contextPath}/pages/technologies/technologies.seam"/>
+            <ui:param name="contact_link" value="#{request.contextPath}/pages/contact/contact.seam"/>
+            <ui:param name="current_path" value="#{request.contextPath}#{request.servletPath}"/>
+
+            <ul class="nav">
+                <li class="nav-link #{(current_path == home_link)?'nav-link-active':''}"><h:outputLink value="#{home_link}">Home</h:outputLink></li>
+                <li class="nav-link #{(current_path == about_link)?'nav-link-active':''}"><h:outputLink value="#{about_link}">About</h:outputLink></li>
+                <li class="nav-link #{(current_path == technologies_link)?'nav-link-active':''}"><h:outputLink value="#{technologies_link}">Technologies</h:outputLink ></li>
+                <li class="nav-link #{(current_path == contact_link)?'nav-link-active':''}"><h:outputLink value="#{contact_link}" style="padding: 0 92px;">Contact</h:outputLink></li>
+            </ul>
+
+        </h:form>
+    </div>
+</f:subview>

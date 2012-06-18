@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns="http://jboss.com/products/seam/components"
+	xmlns:core="http://jboss.com/products/seam/core" xmlns:transaction="http://jboss.com/products/seam/transaction"
+	xmlns:navigation="http://jboss.com/products/seam/navigation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://jboss.com/products/seam/core http://jboss.com/products/seam/core-2.2.xsd
+                 http://jboss.com/products/seam/transaction http://jboss.com/products/seam/transaction-2.2.xsd
+                 http://jboss.com/products/seam/components http://jboss.com/products/seam/components-2.2.xsd
+                 http://jboss.com/products/seam/navigation http://jboss.com/products/seam/navigation-2.2.xsd">
+
+	<core:init debug="true" transaction-management-enabled="false" />
+	<core:manager conversation-timeout="120000" concurrent-request-timeout="500" />
+
+	<transaction:no-transaction />
+
+	<!--<security:identity authenticate-method="#{authenticator.authenticate}" remember-me="false" />-->
+
+	<navigation:pages>
+		<navigation:resources>
+			<value>/WEB-INF/pages.xml</value>
+		</navigation:resources>
+	</navigation:pages>
+
+	<core:resource-loader>
+		<core:bundle-names>
+			<value>messages</value>
+		</core:bundle-names>
+	</core:resource-loader>
+
+	<!--<component class="org.jboss.seam.web.MultipartFilter">-->
+		<!--<property name="createTempFiles">false</property>-->
+		<!--<property name="maxRequestSize">1000000</property>-->
+	<!--</component>-->
+
+</components>
