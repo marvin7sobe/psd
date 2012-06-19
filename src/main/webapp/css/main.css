@@ -24,6 +24,8 @@ body {
 
 #header-container{
     background: url('../img/sprite2.png') repeat-x transparent;
+    /*background: -moz-linear-gradient(to bottom, white, #16385e 60%); for mozila*/
+    /*background: -webkit-gradient(linear, left top, left bottom, from(white), to(#16385e)); for chrome*/
     height: 139px;
 }
 
