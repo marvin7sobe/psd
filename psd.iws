@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88be76b-7cf2-45a6-858f-689aa8ac5d75" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psd.iws" afterPath="$PROJECT_DIR$/psd.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" />
     </list>
     <ignored path="psd.iws" />
@@ -75,17 +73,17 @@
     <favorites_list name="psd" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5429017">
+    <splitter split-orientation="horizontal" split-proportion="0.7628705">
       <split-first>
         <leaf>
-          <file leaf-file-name="navigation.xhtml" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="navigation.xhtml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="16" selection-start="1322" selection-end="1322" vertical-scroll-proportion="-11.115385">
+                <state line="17" column="176" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.41463414">
                   <folding>
-                    <marker date="1340101780602" expanded="true" signature="271:293" placeholder="{...}" />
-                    <marker date="1340101780602" expanded="true" signature="1462:1485" placeholder="{...}" />
-                    <marker date="1340101780602" expanded="true" signature="1466:1489" placeholder="{...}" />
+                    <marker date="1340103029263" expanded="true" signature="271:293" placeholder="{...}" />
+                    <marker date="1340103029263" expanded="true" signature="1462:1510" placeholder="{...}" />
+                    <marker date="1340103029263" expanded="true" signature="1466:1514" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -114,10 +112,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="baseTemplate.xhtml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="baseTemplate.xhtml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/template/baseTemplate.xhtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="26" selection-start="514" selection-end="514" vertical-scroll-proportion="0.3112676">
+                <state line="13" column="26" selection-start="514" selection-end="514" vertical-scroll-proportion="-8.5">
                   <folding />
                 </state>
               </provider>
@@ -127,10 +125,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="117" column="4" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.73624825">
+                <state line="104" column="28" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.72557473">
                   <folding>
                     <element signature="e#1873#1935#0" expanded="false" />
                     <element signature="e#1937#2006#0" expanded="false" />
@@ -175,8 +173,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_us.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" />
       </list>
     </option>
   </component>
@@ -5415,13 +5413,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/mainTemplate.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="1322" selection-end="1322" vertical-scroll-proportion="-11.115385">
+        <state line="11" column="32" selection-start="471" selection-end="485" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/baseTemplate.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="26" selection-start="514" selection-end="514" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="28" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.72557473">
           <folding>
-            <marker date="1340101780602" expanded="true" signature="271:293" placeholder="{...}" />
-            <marker date="1340101780602" expanded="true" signature="1462:1485" placeholder="{...}" />
-            <marker date="1340101780602" expanded="true" signature="1466:1489" placeholder="{...}" />
+            <element signature="e#1873#1935#0" expanded="false" />
+            <element signature="e#1937#2006#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5438,26 +5449,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/mainTemplate.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="471" selection-end="485" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/baseTemplate.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="514" selection-end="514" vertical-scroll-proportion="0.3112676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="4" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.73624825">
+        <state line="17" column="176" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.41463414">
           <folding>
-            <element signature="e#1873#1935#0" expanded="false" />
-            <element signature="e#1937#2006#0" expanded="false" />
+            <marker date="1340103029263" expanded="true" signature="271:293" placeholder="{...}" />
+            <marker date="1340103029263" expanded="true" signature="1462:1510" placeholder="{...}" />
+            <marker date="1340103029263" expanded="true" signature="1466:1514" placeholder="{...}" />
           </folding>
         </state>
       </provider>
