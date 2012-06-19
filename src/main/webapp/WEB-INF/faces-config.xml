@@ -7,8 +7,7 @@
         <locale-config>
             <default-locale>en</default-locale>
             <supported-locale>en</supported-locale>
-            <supported-locale>us_US</supported-locale>
-            <supported-locale>ru_RU</supported-locale>
+            <supported-locale>ru</supported-locale>
         </locale-config>
         <view-handler>com.sun.facelets.FaceletViewHandler</view-handler>
         <resource-bundle>

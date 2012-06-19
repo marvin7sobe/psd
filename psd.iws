@@ -7,7 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88be76b-7cf2-45a6-858f-689aa8ac5d75" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/encode.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/messages_ru_origin.properties" />
+      <change type="DELETED" beforePath="C:\Work\Projects\cv\psd\src\main\resources\messages_us.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psd.iws" afterPath="$PROJECT_DIR$/psd.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/about/about.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/about/about.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/contact/contact.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/contact/contact.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/technologies/technologies.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/technologies/technologies.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" />
     </list>
     <ignored path="psd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,56 +87,53 @@
     <favorites_list name="psd" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.33853355">
+    <splitter split-orientation="horizontal" split-proportion="0.8299532">
       <split-first>
         <leaf>
-          <file leaf-file-name="navigation.xhtml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="home.xhtml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="34" selection-start="163" selection-end="185" vertical-scroll-proportion="-3.2692308">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="about.xhtml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/about/about.xhtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="35" selection-start="163" selection-end="186" vertical-scroll-proportion="-3.2692308">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contact.xhtml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/contact/contact.xhtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="36" selection-start="187" selection-end="187" vertical-scroll-proportion="-3.2692308">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="technologies.xhtml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/technologies/technologies.xhtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="41" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.2692308">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="navigation.xhtml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="179" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.45368916">
+                <state line="7" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="-4.576923">
                   <folding>
-                    <marker date="1340103398239" expanded="true" signature="271:293" placeholder="{...}" />
-                    <marker date="1340103398239" expanded="true" signature="1462:1485" placeholder="{...}" />
-                    <marker date="1340103398239" expanded="true" signature="1466:1489" placeholder="{...}" />
+                    <marker date="1340117595426" expanded="true" signature="223:245" placeholder="{...}" />
+                    <marker date="1340117595426" expanded="true" signature="1468:1481" placeholder="{...}" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AboutController.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/psd/controller/AboutController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ContactController.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/psd/controller/ContactController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/psd/controller/HomeController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TechnologiesController.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/psd/controller/TechnologiesController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -130,30 +141,57 @@
           <file leaf-file-name="header.xhtml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="47" selection-start="592" selection-end="592" vertical-scroll-proportion="-7.8461537">
+                <state line="10" column="65" selection-start="462" selection-end="462" vertical-scroll-proportion="-6.5384617">
                   <folding>
-                    <marker date="1340015260139" expanded="true" signature="165:186" placeholder="{...}" />
-                    <marker date="1340015260139" expanded="true" signature="250:331" placeholder="{...}" />
-                    <marker date="1340015260139" expanded="true" signature="439:460" placeholder="{...}" />
-                    <marker date="1340015260139" expanded="true" signature="804:823" placeholder="{...}" />
+                    <marker date="1340120071346" expanded="true" signature="165:186" placeholder="{...}" />
+                    <marker date="1340120071346" expanded="true" signature="250:331" placeholder="{...}" />
+                    <marker date="1340120071346" expanded="true" signature="439:460" placeholder="{...}" />
+                    <marker date="1340120071346" expanded="true" signature="1003:1022" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mainTemplate.xhtml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/template/mainTemplate.xhtml">
+          <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+              <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+                <state />
+              </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="32" selection-start="471" selection-end="485" vertical-scroll-proportion="-7.1923075">
+                <state line="8" column="32" selection-start="441" selection-end="441" vertical-scroll-proportion="-6.8">
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="encode.bat" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/encode.bat">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="47" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="baseTemplate.xhtml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/template/baseTemplate.xhtml">
+          <file leaf-file-name="messages_ru.properties" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="26" selection-start="514" selection-end="514" vertical-scroll-proportion="-8.5">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="ResourceBundle">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="440" column="0" selection-start="15794" selection-end="15794" vertical-scroll-proportion="0.7863129">
                   <folding />
                 </state>
               </provider>
@@ -163,22 +201,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="103" selection-start="640" selection-end="640" vertical-scroll-proportion="0.5035261">
-                  <folding>
-                    <element signature="e#2063#2125#0" expanded="false" />
-                    <element signature="e#2127#2196#0" expanded="false" />
-                  </folding>
+                <state line="125" column="16" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.7636103">
+                  <folding />
                 </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blue_corners.png" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/img/blue_corners.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
               </provider>
             </entry>
           </file>
@@ -197,22 +225,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/psd/controller/AboutController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/psd/controller/TechnologiesController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/psd/controller/ContactController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_us.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/components.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/template/baseTemplate.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_ru_origin.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/about/about.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/contact/contact.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/technologies/technologies.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/template/baseTemplate.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/psd/bean/NavigationBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/template/layout/footer.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_us.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/main.css" />
+        <option value="$PROJECT_DIR$/encode.bat" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -338,206 +366,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -551,6 +379,7 @@
     <property name="recentsLimit" value="5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Xhtml" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -951,9 +780,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="163" selection-end="163" vertical-scroll-proportion="0.11724138">
+        <state line="0" column="56" selection-start="23" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru_origin.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="42" selection-start="115" selection-end="115" vertical-scroll-proportion="-0.85">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar!/org/jboss/seam/international/LocaleSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="30" selection-start="1122" selection-end="1136" vertical-scroll-proportion="-12.2">
           <folding />
         </state>
       </provider>
@@ -963,7 +812,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="551" selection-end="551" vertical-scroll-proportion="0.2367688">
+        <state line="8" column="32" selection-start="441" selection-end="441" vertical-scroll-proportion="-6.8">
           <folding />
         </state>
       </provider>
@@ -971,65 +820,45 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="7" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="-4.576923">
+          <folding>
+            <marker date="1340117595426" expanded="true" signature="223:245" placeholder="{...}" />
+            <marker date="1340117595426" expanded="true" signature="1468:1481" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_us.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="62" selection-start="20" selection-end="20" vertical-scroll-proportion="-0.0">
-          <folding />
+        <state line="10" column="65" selection-start="462" selection-end="462" vertical-scroll-proportion="-6.5384617">
+          <folding>
+            <marker date="1340120071346" expanded="true" signature="165:186" placeholder="{...}" />
+            <marker date="1340120071346" expanded="true" signature="250:331" placeholder="{...}" />
+            <marker date="1340120071346" expanded="true" signature="439:460" placeholder="{...}" />
+            <marker date="1340120071346" expanded="true" signature="1003:1022" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/sprite2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/nav_sprite.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/blue_corners.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/mainTemplate.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="471" selection-end="485" vertical-scroll-proportion="-7.1923075">
+        <state line="5" column="34" selection-start="163" selection-end="185" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/baseTemplate.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/about/about.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="514" selection-end="514" vertical-scroll-proportion="-8.5">
+        <state line="5" column="35" selection-start="163" selection-end="186" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/psd/controller/AboutController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/contact/contact.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/psd/controller/ContactController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="5" column="36" selection-start="187" selection-end="187" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
@@ -1043,43 +872,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/psd/controller/TechnologiesController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/technologies/technologies.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+        <state line="5" column="41" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.2692308">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="47" selection-start="592" selection-end="592" vertical-scroll-proportion="-7.8461537">
-          <folding>
-            <marker date="1340015260139" expanded="true" signature="165:186" placeholder="{...}" />
-            <marker date="1340015260139" expanded="true" signature="250:331" placeholder="{...}" />
-            <marker date="1340015260139" expanded="true" signature="439:460" placeholder="{...}" />
-            <marker date="1340015260139" expanded="true" signature="804:823" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="179" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.45368916">
-          <folding>
-            <marker date="1340103398239" expanded="true" signature="271:293" placeholder="{...}" />
-            <marker date="1340103398239" expanded="true" signature="1462:1485" placeholder="{...}" />
-            <marker date="1340103398239" expanded="true" signature="1466:1489" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="103" selection-start="640" selection-end="640" vertical-scroll-proportion="0.5035261">
-          <folding>
-            <element signature="e#2063#2125#0" expanded="false" />
-            <element signature="e#2127#2196#0" expanded="false" />
-          </folding>
+        <state line="125" column="16" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.7636103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/encode.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="440" column="0" selection-start="15794" selection-end="15794" vertical-scroll-proportion="0.7863129">
+          <folding />
         </state>
       </provider>
     </entry>

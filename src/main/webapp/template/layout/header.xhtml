@@ -10,18 +10,18 @@
 
     <h:form style="margin: 0; padding: 0">
         <div style="float: right;width: 170px; margin-top: 10px; height: 30px; ">
-            <h:commandLink styleClass="i18n-language">
-                <h:graphicImage styleClass="language-img" title="Russian" alt="Russian" url="/img/ru_flag.png"/>
+            <h:commandLink styleClass="i18n-language #{(localeSelector.language=='ru')?'i18n-language-active':''}" action="#{localeSelector.selectLanguage('ru')}">
+                <h:graphicImage styleClass="i18n-language-img" title="#{msg.i18n_russian}" alt="#{msg.i18n_russian}" url="/img/ru_flag.png"/>
             </h:commandLink>
 
-            <h:commandLink styleClass="i18n-language" style="margin-right: 10px;">
-                <h:graphicImage styleClass="language-img" title="English" alt="English" url="/img/us_flag.png"/>
+            <h:commandLink styleClass="i18n-language #{(localeSelector.language=='en')?'i18n-language-active':''}" style="margin-right: 10px;" action="#{localeSelector.selectLanguage('en')}">
+                <h:graphicImage styleClass="i18n-language-img" title="#{msg.i18n_english}" alt="#{msg.i18n_english}" url="/img/us_flag.png"/>
             </h:commandLink>
         </div>
     </h:form>
 
     <div style="float: right;  width: 550px; color: #ffffff; text-align: center; font-size: 25px; font-weight: bold; margin-top: 35px;">
-        Professional Software development
+        <h:outputText value="#{msg.navigation_main_phrase}"/>
     </div>
 </div>
 </f:subview>
