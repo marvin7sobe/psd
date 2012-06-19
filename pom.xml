@@ -259,7 +259,7 @@
             <version>${jboss.richfaces.version}</version>
         </dependency>
 
-         <!--Spring dependencies-->
+        <!--Spring dependencies-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
@@ -438,6 +438,47 @@
 
     <build>
         <finalName>${project.artifactId}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <excludes>
+                    <exclude>**/messages_ru_origin.properties</exclude>
+                </excludes>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.0</version>
+                <executions>
+                    <execution>
+                        <id>clean</id>
+                        <configuration>
+                            <tasks>
+                                <exec dir="${basedir}" executable="${basedir}/scripts/clean.bat" failonerror="false"/>
+                            </tasks>
+                        </configuration>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>encoding</id>
+                        <configuration>
+                            <tasks>
+                                <exec dir="${basedir}" executable="${basedir}/scripts/encode.bat" failonerror="true"/>
+                            </tasks>
+                        </configuration>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 </project>
 

@@ -7,21 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88be76b-7cf2-45a6-858f-689aa8ac5d75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/encode.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/messages_ru_origin.properties" />
-      <change type="DELETED" beforePath="C:\Work\Projects\cv\psd\src\main\resources\messages_us.properties" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/clean.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/encode.bat" />
+      <change type="DELETED" beforePath="C:\Work\Projects\cv\psd\encode.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Work\Projects\cv\psd\src\main\resources\messages_ru.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psd.iws" afterPath="$PROJECT_DIR$/psd.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/about/about.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/about/about.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/contact/contact.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/contact/contact.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/home/home.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/technologies/technologies.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pages/technologies/technologies.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/layout/navigation.xhtml" />
     </list>
     <ignored path="psd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +78,7 @@
     <favorites_list name="psd" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8299532">
+    <splitter split-orientation="horizontal" split-proportion="0.76677066">
       <split-first>
         <leaf>
           <file leaf-file-name="home.xhtml" pinned="false" current="false" current-in-tab="false">
@@ -152,46 +143,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-              <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-                <state />
-              </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="32" selection-start="441" selection-end="441" vertical-scroll-proportion="-6.8">
-                  <folding />
-                </state>
-              </provider>
-              <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="encode.bat" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/encode.bat">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="47" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="messages_ru.properties" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-                  <folding />
-                </state>
-              </provider>
-              <provider editor-type-id="ResourceBundle">
-                <state />
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="440" column="0" selection-start="15794" selection-end="15794" vertical-scroll-proportion="0.7863129">
+                <state line="460" column="25" selection-start="16563" selection-end="16563" vertical-scroll-proportion="0.31527093">
                   <folding />
                 </state>
               </provider>
@@ -204,7 +159,7 @@
           <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="125" column="16" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.7636103">
+                <state line="125" column="16" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.9334501">
                   <folding />
                 </state>
               </provider>
@@ -225,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/messages_us.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/components.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/template/baseTemplate.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
@@ -240,6 +193,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/technologies/technologies.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/main.css" />
         <option value="$PROJECT_DIR$/encode.bat" />
+        <option value="$PROJECT_DIR$/scripts/encode.bat" />
+        <option value="$PROJECT_DIR$/scripts/clean.bat" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -269,6 +224,20 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Professional Software Development" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Professional Software Development" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -366,6 +335,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'messages'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -392,13 +441,14 @@
       <recent name="com.psd.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\Projects\cv\psd\scripts" />
       <recent name="C:\Work\Projects\cv\psd\src\main\resources" />
       <recent name="C:\Work\Projects\cv\psd\src\main\webapp\pages\technologies" />
       <recent name="C:\Work\Projects\cv\psd\src\main\webapp\pages\contact" />
       <recent name="C:\Work\Projects\cv\psd\src\main\webapp\pages\about" />
-      <recent name="C:\Work\Projects\cv\psd\src\main\webapp\template" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Projects\cv\psd\scripts" />
       <recent name="C:\Work\Projects\cv\psd\src\main\webapp" />
       <recent name="C:\Work\Projects\cv\psd\src\main\webapp\pages\home" />
     </key>
@@ -692,7 +742,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -711,10 +761,10 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.111645296" sideWeight="0.8130342" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.111645296" sideWeight="0.6773504" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23931624" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20352565" sideWeight="0.8130342" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18696581" sideWeight="0.495685" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20352565" sideWeight="0.6773504" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32264957" sideWeight="0.495685" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -790,16 +840,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru_origin.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="42" selection-start="115" selection-end="115" vertical-scroll-proportion="-0.85">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar!/org/jboss/seam/international/LocaleSelector.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="30" selection-start="1122" selection-end="1136" vertical-scroll-proportion="-12.2">
@@ -826,18 +866,6 @@
           <folding>
             <marker date="1340117595426" expanded="true" signature="223:245" placeholder="{...}" />
             <marker date="1340117595426" expanded="true" signature="1468:1481" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="462" selection-end="462" vertical-scroll-proportion="-6.5384617">
-          <folding>
-            <marker date="1340120071346" expanded="true" signature="165:186" placeholder="{...}" />
-            <marker date="1340120071346" expanded="true" signature="250:331" placeholder="{...}" />
-            <marker date="1340120071346" expanded="true" signature="439:460" placeholder="{...}" />
-            <marker date="1340120071346" expanded="true" signature="1003:1022" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -881,14 +909,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="16" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.7636103">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/encode.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+        <state line="125" column="16" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.9334501">
           <folding />
         </state>
       </provider>
@@ -900,9 +921,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout/header.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="65" selection-start="462" selection-end="462" vertical-scroll-proportion="-6.5384617">
+          <folding>
+            <marker date="1340120071346" expanded="true" signature="165:186" placeholder="{...}" />
+            <marker date="1340120071346" expanded="true" signature="250:331" placeholder="{...}" />
+            <marker date="1340120071346" expanded="true" signature="439:460" placeholder="{...}" />
+            <marker date="1340120071346" expanded="true" signature="1003:1022" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru_origin.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="42" selection-start="115" selection-end="115" vertical-scroll-proportion="0.030088495">
           <folding />
         </state>
       </provider>
@@ -910,9 +943,23 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/encode.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="84" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/clean.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="440" column="0" selection-start="15794" selection-end="15794" vertical-scroll-proportion="0.7863129">
+        <state line="460" column="25" selection-start="16563" selection-end="16563" vertical-scroll-proportion="0.31527093">
           <folding />
         </state>
       </provider>
