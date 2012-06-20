@@ -1,0 +1,25 @@
+<f:subview id="slides-subview" xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://jboss.com/products/seam/taglib">
+    <script>
+        jQuery(function(){
+            jQuery1_7_2("#slides").slides({
+                play: 5000,
+                pause: 2500,
+                hoverPause: true,
+                generatePagination: true,
+                paginationClass: 'pagination',
+                currentClass: 'current'
+            });
+        });
+    </script>
+    <div id="slides" style="width: 960px; height: 320px; position: relative;z-index: 1;">
+        <div class="slides_container" style="width: 960px; height: 320px;">
+            <div>
+                <h:graphicImage url="/img/home-slides/industry.jpg"/>
+            </div>
+            <div>
+                <h:graphicImage url="/img/home-slides/software-development.jpg"/>
+            </div>
+        </div>
+    </div>
+
+</f:subview>

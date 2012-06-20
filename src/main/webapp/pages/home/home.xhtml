@@ -1,10 +1,11 @@
 <html xmlns:ui="http://java.sun.com/jsf/facelets">
 <ui:composition template="/template/mainTemplate.xhtml">
+    <ui:define name="head">
+        <script type="text/javascript" src="#{request.contextPath}/js/jquery.plugings/slides.min.jquery.js"></script>
+    </ui:define>
 
     <ui:define name="body">
-        <div>
-            #{msg.navigation_home}
-        </div>
+        <ui:include src="slides.xhtml"/>
     </ui:define>
 
 </ui:composition>

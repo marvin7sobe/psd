@@ -83,19 +83,16 @@ body {
 }
 
 .nav{
-    list-style-image: none;
-    list-style-type: none;
+    list-style: none outside none;
     padding: 0;
     margin: 0;
 }
 .nav li{
-    list-style-image: none;
-    list-style-type: none;
+    list-style: none outside none;
     display: block;
     float: left;
     padding: 0;
-    margin: 0;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
     text-align: center;
 }
 .nav-link a{
@@ -136,4 +133,37 @@ body {
     width: 30px;
     height: 20px;
     border: none;
+}
+
+.pagination {
+    list-style: none none;
+    margin: 0;
+    padding: 0;
+    bottom: 15px;
+    left: 10px;
+    position: absolute;
+    z-index: 10;
+}
+
+.pagination li{
+    display: inline-block;
+    float: left;
+    list-style: none none;
+    margin-right: 5px;
+}
+
+.pagination li a {
+    background: url("../img/pagination.png") 0 0;
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 12px;
+    height: 12px;
+    text-indent: 10000px;
+}
+
+.pagination li.current a
+,.pagination li.current a:hover
+,.pagination li a:hover{
+    background-position: 0 -12px;
 }
