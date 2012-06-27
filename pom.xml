@@ -21,6 +21,7 @@
         <jboss.seam.version>2.2.2.Final</jboss.seam.version>
         <jboss.richfaces.version>3.3.3.Final</jboss.richfaces.version>
         <javax.faces.version>1.2_12</javax.faces.version>
+        <slf4j.version>1.5.8</slf4j.version>
 
         <!-- Test -->
         <junit.version>4.8.1</junit.version>
@@ -47,11 +48,6 @@
             <artifactId>servlet-api</artifactId>
             <version>6.0.35</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>ant</groupId>
-            <artifactId>ant</artifactId>
-            <version>1.6.1</version>
         </dependency>
         <dependency>
             <groupId>cglib</groupId>
@@ -90,17 +86,6 @@
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
-            <artifactId>hibernate</artifactId>
-            <version>3.1.2</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>ehcache</groupId>
-                    <artifactId>ehcache</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
             <artifactId>hibernate-annotations</artifactId>
             <version>3.5.6-Final</version>
         </dependency>
@@ -115,11 +100,6 @@
             <version>3.2.0.Final</version>
         </dependency>
         <dependency>
-            <groupId>javax.transaction</groupId>
-            <artifactId>jta</artifactId>
-            <version>1.1</version>
-        </dependency>
-        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
             <version>3.1.0.GA</version>
@@ -127,7 +107,12 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
-            <version>4.1.0.Final</version>
+            <version>3.5.6-Final</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.transaction</groupId>
+            <artifactId>jta</artifactId>
+            <version>1.1</version>
         </dependency>
         <dependency>
             <groupId>jboss</groupId>
@@ -159,6 +144,12 @@
             <artifactId>el-api</artifactId>
             <version>1.0</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.0.8</version>
         </dependency>
 
         <!-- jsf dependencies -->
@@ -259,6 +250,33 @@
             <version>${jboss.richfaces.version}</version>
         </dependency>
 
+        <!-- slf4j -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-ext</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>[1.2.0,1.3.0)</version>
+        </dependency>
+
         <!--Spring dependencies-->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -292,6 +310,11 @@
                     <artifactId>commons-logging</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${org.springframework-version}</version>
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -335,18 +358,6 @@
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>11.0.2</version>
-        </dependency>
-        <dependency>
-            <groupId>uk.com.robust-it</groupId>
-            <artifactId>cloning</artifactId>
-            <version>1.7.9</version>
-        </dependency>
-
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>

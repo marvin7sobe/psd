@@ -1,11 +1,14 @@
 package com.psd.controller;
 
+import org.jboss.seam.ScopeType;
 import org.jboss.seam.annotations.AutoCreate;
 import org.jboss.seam.annotations.Name;
+import org.jboss.seam.annotations.Scope;
 
 @AutoCreate
 @Name("contactController")
-public class ContactController {
+@Scope(ScopeType.PAGE)
+public class ContactController extends AbstractController{
     private String name = "name";
 
     public String getName() {
